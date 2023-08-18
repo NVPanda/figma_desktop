@@ -8,7 +8,6 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "make": "yarn make",
     "build": "$ chmod a+x Subsurface*.AppImage"
   },
   "dependencies": {
