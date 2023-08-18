@@ -7,11 +7,14 @@
   "author": "NVPanda",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "make": "yarn make",
+    "build": "$ chmod a+x Subsurface*.AppImage"
   },
   "dependencies": {
     "electron": "^26.0.0",
     "electron-builder": "14.0.0",
+    "electron-forge": "^5.2.4",
     "watch": "^1.0.2"
   }
 }
