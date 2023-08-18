@@ -1,0 +1,17 @@
+{
+  "name": "figma_desktop",
+  "version": "0.0.1",
+  "description": "Um atalho para o app web Figma",
+  "main": "main.js",
+  "repository": "https://github.com/nvpanda/figma_desktop",
+  "author": "NVPanda",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^26.0.0",
+    "electron-builder": "14.0.0",
+    "watch": "^1.0.2"
+  }
+}
